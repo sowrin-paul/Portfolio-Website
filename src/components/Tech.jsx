@@ -1,4 +1,3 @@
-import { a, div, text } from "framer-motion/client";
 import { BallCanvas } from "./canvas";
 import SectionWrapper from "../hoc/SectionWrapper";
 import { technologies } from "../constants";

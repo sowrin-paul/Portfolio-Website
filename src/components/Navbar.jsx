@@ -1,24 +1,40 @@
-import React, { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../style";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
-import { link } from "framer-motion/client";
 
 const Navbar = () => {
     const [active, setActive] = useState('');
     const [toggle, setToggle] = useState('');
+    const [scrolled, setScrolled] = useState(false);
 
-    return(
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollTop = window.scrollY;
+            if (scrollTop > 100) {
+                setScrolled(true);
+            } else {
+                setScrolled(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
+    return (
         <nav
             className={`
                         ${styles.paddingX}
                         w-full flex items-center py-5 fixed top-0 z-20
-                        bg-primary
+                        ${scrolled ? "bg-primary" : "bg-transparent"}
+                        transition-colors duration-300
                 `}
         >
             <div
-                className="w-full flex justify-between 
+                className="w-full flex justify-between
                         items-center max-w-7xl mx-auto"
             >
                 <Link
@@ -38,8 +54,8 @@ const Navbar = () => {
                 <ul className="list-none hidden sm:flex flex-row gap-10">
                     {navLinks.map((Link) => (
                         <li key={Link.id} className={`${active === Link.title
-                                                        ? "text-white"
-                                                        : "text-secondary"} 
+                            ? "text-white"
+                            : "text-secondary"} 
                                                         hover:text-white text-[18px] 
                                                         font-medium cursor-pointer`}
                             onClick={() => setActive(Link.title)}
@@ -65,14 +81,14 @@ const Navbar = () => {
                         <ul className="list-none flex sm:flex justify-end items-start flex-col gap-4">
                             {navLinks.map((Link) => (
                                 <li key={Link.id} className={`${active === Link.title
-                                                                ? "text-white"
-                                                                : "text-secondary"}
+                                    ? "text-white"
+                                    : "text-secondary"}
                                                                 hover:text-white font-poppins text-[16px]
                                                                 font-medium cursor-pointer`}
                                     onClick={() => {
-                                            setActive(Link.title);
-                                            setToggle(Link.title);
-                                        }
+                                        setActive(Link.title);
+                                        setToggle(Link.title);
+                                    }
                                     }
                                 >
                                     <a href={`#${Link.id}`}>{Link.title}</a>

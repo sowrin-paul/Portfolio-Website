@@ -1,10 +1,11 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Tech from "./components/Tech";
 // import Feedback from "./components/Feedbacks";
 import Experience from "./components/Experience";
+import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 import StarCanvas from "./components/canvas/Stars";
 import './index.css';
@@ -19,6 +20,7 @@ const App = () =>{
         </div>
         <About />
         <Experience />
+        <Certifications />
         <Tech />
         {/* <Feedback /> */}
 

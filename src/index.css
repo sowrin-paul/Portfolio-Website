@@ -126,6 +126,18 @@
   transform: translateZ(0);
 }
 
+.hero-animated-bg {
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460, #16213e, #1a1a2e);
+  background-size: 200% 200%;
+  animation: gradientMove 25s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {

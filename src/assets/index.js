@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+;import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -23,6 +23,11 @@ import pytorch from "./tech/pytorch.png";
 import reacticon from "./company/reacticon.png";
 import codealpha from "./company/codealpha.png";
 import itransition from "./company/itransition.png";
+import cdip from "./company/cdip.png";
+import british_council from "./company/british_council.png";
+import oceancon from "./company/ocean_conservancy.png";
+import cisco from "./company/cisco.png";
+import codeorg from "./company/codeorg.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -55,4 +60,9 @@ export {
   tripguide,
   pytorch,
   itransition,
+  cdip,
+  british_council,
+  oceancon,
+  cisco,
+  codeorg,
 };

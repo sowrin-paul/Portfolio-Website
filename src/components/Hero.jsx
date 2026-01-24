@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
 import { Physics } from "@react-three/rapier";
 import { styles } from "../style";
 import IDCard from "./IDCard";
@@ -8,10 +7,10 @@ import IDCard from "./IDCard";
 
 const Hero = () => {
     return (
-        <section className="relative w-full h-screen mx-auto">
+        <section className="relative w-full h-screen mx-auto bg-primary">
             <div
                 className={`${styles.paddingX} absolute inset-0 top-[60px]
-        max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10`}
+                    mx-auto flex flex-col md:flex-row items-center gap-10 max-w-7xl`}
             >
                 {/* Left Side - Text */}
                 <div className="flex flex-row items-start gap-5">
@@ -25,9 +24,9 @@ const Hero = () => {
                             Hi, I'm <span className="text-[#02a3eb]">Sowrin</span>
                         </h1>
                         <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                            I develop web applications, user
-                            <br className="sm:block hidden" />
-                            interfaces, and tune AI models for various tasks
+                            <span className="text-[#79a5f7]">CS Graduate | Python, Django & React Developer</span>
+                            <br />
+                            <span className="text-[#ffffff]">Building real-world web applications and exploring AI-driven solutions</span>
                         </p>
                     </div>
                 </div>

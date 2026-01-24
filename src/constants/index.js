@@ -16,11 +16,15 @@ import {
     reacticon,
     codealpha,
     carrent,
-    jobit,
     tripguide,
     threejs,
     pytorch,
-    itransition
+    itransition,
+    cdip,
+    british_council,
+    oceancon,
+    cisco,
+    codeorg,
   } from "../assets";
   
   export const navLinks = [
@@ -33,8 +37,8 @@ import {
       title: "Experience",
     },
     {
-      id: "projects",
-      title: "Projects",
+      id: "certifications",
+      title: "Certifications",
     },
     {
       id: "contact",
@@ -244,4 +248,60 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  const certifications = [
+    {
+      title: "CDIP Certified Software Testing & Quality Assurance",
+      organization: "Center for Development of IT Professionals",
+      icon: cdip,
+      iconBg: "#E6DEDD",
+      date: "December 2024",
+      points: [
+        "Practical Software Quality Assurance fundamentals including manual testing, automation basics, API & performance testing using industry tools.",
+        "Writing test cases, bug reporting, automation with Selenium, API testing with Postman, performance testing, and using tools like Apache JMeter & Postman.",
+        "Hands-on real-world testing projects, automation scripts, GitHub portfolio, plus CV and interview preparation.",
+      ],
+    },
+    {
+      title: "Accelerated Intro to CS Course",
+      organization: "Code.Org",
+      icon: codeorg,
+      iconBg: "#E6DEDD",
+      date: "October 2021",
+      points: [
+        "This 20-hour course covers the core computer science and programming concepts in courses 2-4.",
+      ],
+    },
+    {
+      title: "Ocean Conservancy Costal Cleaning Campaign",
+      organization: "Ocean Conservancy",
+      icon: oceancon,
+      iconBg: "#E6DEDD",
+      date: "December 2022",
+      points: [
+      ],
+    },
+    {
+      title: "CISCO Certified Introduction to CyberSecurity",
+      organization: "Cisco Networking Academy",
+      icon: cisco,
+      iconBg: "#E6DEDD",
+      date: "April 2019",
+      points: [
+        "An introduction to cybersecurity knowledge.",
+        "Gained theoretical knowledge on the cybersecurity, types of network attacks and how to prevent them.",
+      ],
+    },
+    {
+      title: "British Council Young Learner Certificate",
+      organization: "British Council",
+      icon: british_council,
+      iconBg: "#E6DEDD",
+      date: "June 2018",
+      points: [
+        "Build confidence in spoken and written English through guided practice in reading, writing, listening, and speaking with supportive teachers and interactive activities.",
+        "Develop communication, collaboration, critical thinking, leadership, creativity, and digital skills in a positive and encouraging learning environment.",
+      ],
+    },
+  ];
+  
+  export { services, technologies, experiences, certifications, testimonials, projects };
