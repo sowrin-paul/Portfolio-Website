@@ -131,6 +131,17 @@ import {
       ],
     },
     {
+      title: "Frontend Developer",
+      icon: itransition,
+      iconBg: "#383E56",
+      date: "March 2025 - May 2025",
+      points: [
+        "Developing and maintaining a web applications using React.js, Node.Js, Express.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
       title: "React Developer",
       icon: reacticon,
       iconBg: "#383E56",
@@ -138,17 +149,6 @@ import {
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with teams including designers, and other team members to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Frontend Developer",
-      icon: itransition,
-      iconBg: "#383E56",
-      date: "March 2025 - May 2025",
-      points: [
-        "Developing and maintaining a web applications using React.js, Node.Js, Express.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
@@ -249,6 +249,30 @@ import {
   ];
   
   const certifications = [
+    {
+      title: "Cisco & IBM Certified AI Fundamentals",
+      organization: "Cisco & IBM Skillbuilds",
+      icon: cisco,
+      iconBg: "#E6DEDD",
+      date: "March 2026",
+      points: [
+        "Acquired core concepts of AI, including data, algorithms, and basic machine learning principles.",
+        "Explored practical use cases of AI in business and technology through hands-on learning modules.",
+        "Completed training under the Cisco Networking Academy program, strengthening industry-relevant AI skills.",
+      ],
+    },
+    {
+      title: "Cisco Certified Introduction to Modern AI",
+      organization: "Cisco",
+      icon: cisco,
+      iconBg: "#E6DEDD",
+      date: "February 2026",
+      points: [
+        "Gained foundational knowledge of modern Artificial Intelligence concepts, including machine learning and real-world applications.",
+        "Learned how AI systems are designed, trained, and deployed across different industries.",
+        "Developed an understanding of ethical considerations and future trends in AI technologies.",
+      ],
+    },
     {
       title: "CDIP Certified Software Testing & Quality Assurance",
       organization: "Center for Development of IT Professionals",
