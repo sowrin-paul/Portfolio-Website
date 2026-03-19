@@ -28,6 +28,25 @@ const Hero = () => {
                             <br />
                             <span className="text-[#ffffff]">Building real-world web applications and exploring AI-driven solutions</span>
                         </p>
+
+                        <div className="mt-6 flex flex-wrap gap-4">
+                            <a
+                                href="/resume.pdf"
+                                download
+                                className="px-6 py-2 rounded-lg bg-[#02a3eb] text-white font-semibold hover:bg-[#0188c7] transition-colors duration-300"
+                            >
+                                Download Resume
+                            </a>
+                            <a
+                                href="/resume.pdf#view=FitH"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                type="application/pdf"
+                                className="px-6 py-2 rounded-lg border border-[#02a3eb] text-[#02a3eb] font-semibold hover:bg-[#02a3eb] hover:text-white transition-colors duration-300"
+                            >
+                                View Resume
+                            </a>
+                        </div>
                     </div>
                 </div>
 
