@@ -25,6 +25,10 @@ import {
     oceancon,
     cisco,
     codeorg,
+    ai,
+    adosupport,
+    careserenity,
+    story_game,
   } from "../assets";
   
   export const navLinks = [
@@ -39,6 +43,10 @@ import {
     {
       id: "certifications",
       title: "Certifications",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -184,9 +192,34 @@ import {
   
   const projects = [
     {
+      name: "Personal AI Assistant",
+      description:
+        "Developed a personal AI assistant capable of processing voice commands, executing system tasks, and generating responses using natural language understanding and automation workflows.",
+      tags: [
+        {
+          name: "pytorch",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "llm",
+          color: "white-text-gradient",
+        },
+        {
+          name: "model_training",
+          color: "white-text-gradient",
+        },
+      ],
+      image: ai,
+      source_code_link: "https://github.com/sowrin-paul/Personal_AI_Assistant.git",
+    },
+    {
       name: "CareSerenity",
       description:
-        "A web-based platform that allows users to search, adopt, and donate to Orphanages. Organizations that work for orphans can come under one roof and have enormous opportunities to share their work with normal people.",
+        "CareSerenity is a web-based healthcare platform designed to manage patient information, streamline services, and improve accessibility through an organized and intuitive system.",
       tags: [
         {
           name: "react",
@@ -200,61 +233,104 @@ import {
           name: "css",
           color: "pink-text-gradient",
         },
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
       ],
-      image: carrent,
+      image: careserenity,
       source_code_link: "https://github.com/sowrin-paul/CareSerenity",
     },
-    // {
-    //   name: "PForm",
-    //   description:
-    //     "A web application where people can create their choice specific forms by choosing various templates, personalize the templates.",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "node",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "tailwindcss",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: jobit,
-    //   source_code_link: "https://github.com/",
-    // },
     {
-      name: "Scenerismo",
+      name: "AdoSupport",
       description:
-        "A comprehensive travel booking platform that allows users to book hotels, tickets for flights, and bus, and offers curated recommendations for popular destinations.",
+        "AdoSupport is a full-stack platform providing adolescents with AI-driven health guidance, community support, and structured resources through an interactive chatbot system.",
       tags: [
         {
-          name: "html",
+          name: "nextjs",
+          color: "grey-text-gradient",
+        },
+        {
+          name: "tailwindcss",
           color: "blue-text-gradient",
         },
         {
-          name: "css",
+          name: "django",
           color: "green-text-gradient",
         },
         {
-          name: "php",
-          color: "pink-text-gradient",
+          name: "python",
+          color: "blue-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: adosupport,
+      source_code_link: "https://github.com/jannatulferdous01/AdoSupport.git",
+    },
+    {
+      name: "Interactive Story Game",
+      description:
+        "Developed an interactive story-based game where user choices influence narrative progression, enabling dynamic storytelling experiences through branching logic and engaging user-driven decision paths.",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "django",
+          color: "green-text-gradient",
+        },
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "uvicorn",
+          color: "green-text-gradient",
+        },
+        {
+          name: "pytorch",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: story_game,
+      source_code_link: "https://github.com/sowrin-paul/Interactive-Story-Game.git",
     },
   ];
   
   const certifications = [
+    {
+      title: "Ocean Conservancy Costal Cleaning Campaign",
+      organization: "Ocean Conservancy",
+      icon: oceancon,
+      iconBg: "#E6DEDD",
+      date: "December 2022",
+      certificateLink: "https://drive.google.com/file/d/1Ldro1tMoku5B-tTlMG5JCRMMqhaYGsTp/view?usp=drive_link",
+      points: [
+      ],
+    },
+    {
+      title: "British Council Young Learner Certificate",
+      organization: "British Council",
+      icon: british_council,
+      iconBg: "#E6DEDD",
+      date: "June 2018",
+      certificateLink: "https://drive.google.com/file/d/17vaedXrPuYrVKdLvjQIPyBsTqidkG3gj/view?usp=drive_link",
+      points: [
+        "Build confidence in spoken and written English through guided practice in reading, writing, listening, and speaking with supportive teachers and interactive activities.",
+        "Develop communication, collaboration, critical thinking, leadership, creativity, and digital skills in a positive and encouraging learning environment.",
+      ],
+    },
     {
       title: "Cisco & IBM Certified AI Fundamentals",
       organization: "Cisco & IBM Skillbuilds",
       icon: cisco,
       iconBg: "#E6DEDD",
       date: "March 2026",
+      certificateLink: "https://drive.google.com/file/d/1gFLrRvd1kcMrrLm6CJOoqnqylKiUxAQm/view?usp=sharing",
       points: [
         "Acquired core concepts of AI, including data, algorithms, and basic machine learning principles.",
         "Explored practical use cases of AI in business and technology through hands-on learning modules.",
@@ -267,6 +343,7 @@ import {
       icon: cisco,
       iconBg: "#E6DEDD",
       date: "February 2026",
+      certificateLink: "https://drive.google.com/file/d/1SOi8BzvlC4c-Ip_wEIAOLT4ATui1cTx3/view?usp=drive_link",
       points: [
         "Gained foundational knowledge of modern Artificial Intelligence concepts, including machine learning and real-world applications.",
         "Learned how AI systems are designed, trained, and deployed across different industries.",
@@ -279,6 +356,7 @@ import {
       icon: cdip,
       iconBg: "#E6DEDD",
       date: "December 2024",
+      certificateLink: "https://drive.google.com/file/d/1vVp_fkiIkbWj8_jZyQvRrW9tT5FED1AD/view?usp=drive_link",
       points: [
         "Practical Software Quality Assurance fundamentals including manual testing, automation basics, API & performance testing using industry tools.",
         "Writing test cases, bug reporting, automation with Selenium, API testing with Postman, performance testing, and using tools like Apache JMeter & Postman.",
@@ -291,17 +369,9 @@ import {
       icon: codeorg,
       iconBg: "#E6DEDD",
       date: "October 2021",
+      certificateLink: "https://drive.google.com/file/d/1sJrJuqLJ-BkDxGpzEjkNLLrA1nDMJnxg/view?usp=drive_link",
       points: [
         "This 20-hour course covers the core computer science and programming concepts in courses 2-4.",
-      ],
-    },
-    {
-      title: "Ocean Conservancy Costal Cleaning Campaign",
-      organization: "Ocean Conservancy",
-      icon: oceancon,
-      iconBg: "#E6DEDD",
-      date: "December 2022",
-      points: [
       ],
     },
     {
@@ -310,20 +380,10 @@ import {
       icon: cisco,
       iconBg: "#E6DEDD",
       date: "April 2019",
+      certificateLink: "https://drive.google.com/file/d/1RacDanGla5g2iaUwfq8jHxgDSI79Ca6l/view?usp=drive_link",
       points: [
         "An introduction to cybersecurity knowledge.",
         "Gained theoretical knowledge on the cybersecurity, types of network attacks and how to prevent them.",
-      ],
-    },
-    {
-      title: "British Council Young Learner Certificate",
-      organization: "British Council",
-      icon: british_council,
-      iconBg: "#E6DEDD",
-      date: "June 2018",
-      points: [
-        "Build confidence in spoken and written English through guided practice in reading, writing, listening, and speaking with supportive teachers and interactive activities.",
-        "Develop communication, collaboration, critical thinking, leadership, creativity, and digital skills in a positive and encouraging learning environment.",
       ],
     },
   ];

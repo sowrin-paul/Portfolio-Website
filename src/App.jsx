@@ -6,6 +6,7 @@ import Tech from "./components/Tech";
 // import Feedback from "./components/Feedbacks";
 import Experience from "./components/Experience";
 import Certifications from "./components/Certifications";
+import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import StarCanvas from "./components/canvas/Stars";
 import './index.css';
@@ -21,6 +22,7 @@ const App = () =>{
         <About />
         <Experience />
         <Certifications />
+        <Projects />
         <Tech />
         {/* <Feedback /> */}
 

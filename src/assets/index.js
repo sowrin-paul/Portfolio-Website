@@ -32,6 +32,10 @@ import codeorg from "./company/codeorg.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ai from "./ai.jpeg";
+import adosupport from "./adosupport.png";
+import careserenity from "./careserenity.png";
+import story_game from "./story_game.png";
 
 export {
   logo,
@@ -65,4 +69,8 @@ export {
   oceancon,
   cisco,
   codeorg,
+  ai,
+  adosupport,
+  careserenity,
+  story_game,
 };
