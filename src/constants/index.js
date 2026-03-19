@@ -333,7 +333,7 @@ import {
       organization: "Center for Development of IT Professionals",
       icon: cdip,
       iconBg: "#E6DEDD",
-      date: "December 2024",
+      date: "December 2025",
       certificateLink: "https://drive.google.com/file/d/1vVp_fkiIkbWj8_jZyQvRrW9tT5FED1AD/view?usp=drive_link",
       points: [
         "Practical Software Quality Assurance fundamentals including manual testing, automation basics, API & performance testing using industry tools.",
@@ -349,6 +349,9 @@ import {
       date: "December 2022",
       certificateLink: "https://drive.google.com/file/d/1Ldro1tMoku5B-tTlMG5JCRMMqhaYGsTp/view?usp=drive_link",
       points: [
+        "Recognized by Ocean Conservancy for outstanding contribution to environmental sustainability initiatives.",
+        "Actively participated in the International Coastal Cleanup, supporting efforts to reduce marine pollution.",
+        "Demonstrated commitment to community service and environmental protection by contributing to achieving cleaner, trash-free seas.",
       ],
     },
     {
