@@ -303,28 +303,6 @@ import {
   
   const certifications = [
     {
-      title: "Ocean Conservancy Costal Cleaning Campaign",
-      organization: "Ocean Conservancy",
-      icon: oceancon,
-      iconBg: "#E6DEDD",
-      date: "December 2022",
-      certificateLink: "https://drive.google.com/file/d/1Ldro1tMoku5B-tTlMG5JCRMMqhaYGsTp/view?usp=drive_link",
-      points: [
-      ],
-    },
-    {
-      title: "British Council Young Learner Certificate",
-      organization: "British Council",
-      icon: british_council,
-      iconBg: "#E6DEDD",
-      date: "June 2018",
-      certificateLink: "https://drive.google.com/file/d/17vaedXrPuYrVKdLvjQIPyBsTqidkG3gj/view?usp=drive_link",
-      points: [
-        "Build confidence in spoken and written English through guided practice in reading, writing, listening, and speaking with supportive teachers and interactive activities.",
-        "Develop communication, collaboration, critical thinking, leadership, creativity, and digital skills in a positive and encouraging learning environment.",
-      ],
-    },
-    {
       title: "Cisco & IBM Certified AI Fundamentals",
       organization: "Cisco & IBM Skillbuilds",
       icon: cisco,
@@ -364,6 +342,16 @@ import {
       ],
     },
     {
+      title: "Ocean Conservancy Costal Cleaning Campaign",
+      organization: "Ocean Conservancy",
+      icon: oceancon,
+      iconBg: "#E6DEDD",
+      date: "December 2022",
+      certificateLink: "https://drive.google.com/file/d/1Ldro1tMoku5B-tTlMG5JCRMMqhaYGsTp/view?usp=drive_link",
+      points: [
+      ],
+    },
+    {
       title: "Accelerated Intro to CS Course",
       organization: "Code.Org",
       icon: codeorg,
@@ -379,11 +367,23 @@ import {
       organization: "Cisco Networking Academy",
       icon: cisco,
       iconBg: "#E6DEDD",
-      date: "April 2019",
+      date: "April 2021",
       certificateLink: "https://drive.google.com/file/d/1RacDanGla5g2iaUwfq8jHxgDSI79Ca6l/view?usp=drive_link",
       points: [
         "An introduction to cybersecurity knowledge.",
         "Gained theoretical knowledge on the cybersecurity, types of network attacks and how to prevent them.",
+      ],
+    },
+    {
+      title: "British Council Young Learner Certificate",
+      organization: "British Council",
+      icon: british_council,
+      iconBg: "#E6DEDD",
+      date: "June 2018",
+      certificateLink: "https://drive.google.com/file/d/17vaedXrPuYrVKdLvjQIPyBsTqidkG3gj/view?usp=drive_link",
+      points: [
+        "Build confidence in spoken and written English through guided practice in reading, writing, listening, and speaking with supportive teachers and interactive activities.",
+        "Develop communication, collaboration, critical thinking, leadership, creativity, and digital skills in a positive and encouraging learning environment.",
       ],
     },
   ];
