@@ -1,4 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -31,6 +32,7 @@ const App = () =>{
           <StarCanvas />
         </div>
       </div>
+      <SpeedInsights />
     </BrowserRouter>
   );
 }
