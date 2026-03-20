@@ -45,18 +45,18 @@ const Navbar = () => {
                         window.scrollTo(0, 0);
                     }}
                 >
-                    <img src={logo} alt="logo" className="w-14 h-14 object-contain" />
+                    <img src={logo} alt="logo" className="w-12 h-12 sm:w-14 sm:h-14 object-contain" />
                     <p
-                        className="text-white text-[18px] font-bold cursor-pointer flex"
+                        className="text-white text-[16px] sm:text-[18px] font-bold cursor-pointer flex"
                     >Sowrin &nbsp; <span className="sm:block hidden">| My Portfolio</span>
                     </p>
                 </Link>
-                <ul className="list-none hidden sm:flex flex-row gap-10">
+                <ul className="list-none hidden sm:flex flex-row gap-4 md:gap-6 lg:gap-10">
                     {navLinks.map((Link) => (
                         <li key={Link.id} className={`${active === Link.title
                             ? "text-white"
                             : "text-secondary"} 
-                                                        hover:text-white text-[18px] 
+                                                        hover:text-white text-[14px] sm:text-[16px] md:text-[18px]
                                                         font-medium cursor-pointer`}
                             onClick={() => setActive(Link.title)}
                         >

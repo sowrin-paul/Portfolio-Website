@@ -54,10 +54,10 @@ const Contact = () => {
     }
 
     return (
-        <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+        <div className="xl:mt-12 flex flex-col-reverse xl:flex-row gap-4 sm:gap-6 md:gap-8 xl:gap-10 overflow-hidden">
             <motion.div
                 variants={slideIn('left', 'tween', 0.2, 1)}
-                className="flex-[0.75] bg-black-100 rounded-2xl p-8"
+                className="w-full xl:flex-[0.75] bg-black-100 rounded-2xl p-4 sm:p-6 md:p-8"
             >
                 <p className={styles.sectionSubText}>Get in touch</p>
                 <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -65,10 +65,10 @@ const Contact = () => {
                 <form
                     // ref={formRef}
                     onSubmit={handleSubmit}
-                    className="mt-12 flex flex-col gap-8"
+                    className="mt-8 sm:mt-10 md:mt-12 flex flex-col gap-4 sm:gap-6 md:gap-8"
                 >
                     <label className="flex flex-col">
-                        <span className="text-white font-medium mb-4">Your Name</span>
+                        <span className="text-white font-medium mb-2 sm:mb-3 md:mb-4">Your Name</span>
                         <input
                             type="text"
                             name="name"
@@ -79,7 +79,7 @@ const Contact = () => {
                         />
                     </label>
                     <label className="flex flex-col">
-                        <span className="text-white font-medium mb-4">Your Email</span>
+                        <span className="text-white font-medium mb-2 sm:mb-3 md:mb-4">Your Email</span>
                         <input
                             type="email"
                             name="email"
@@ -90,7 +90,7 @@ const Contact = () => {
                         />
                     </label>
                     <label className="flex flex-col">
-                        <span className="text-white font-medium mb-4">Your Message</span>
+                        <span className="text-white font-medium mb-2 sm:mb-3 md:mb-4">Your Message</span>
                         <textarea
                             row="7"
                             name="message"

@@ -9,11 +9,11 @@ const Hero = () => {
     return (
         <section className="relative w-full h-screen mx-auto bg-primary">
             <div
-                className={`${styles.paddingX} absolute inset-0 top-[60px]
-                    mx-auto flex flex-col md:flex-row items-center gap-10 max-w-7xl`}
+                className={`${styles.paddingX} absolute inset-0 top-[60px] xs:top-[70px] sm:top-[80px]
+                    mx-auto flex flex-col md:flex-row items-center gap-4 sm:gap-6 md:gap-10 max-w-7xl`}
             >
                 {/* Left Side - Text */}
-                <div className="flex flex-row items-start gap-5">
+                <div className="flex flex-row items-start gap-3 sm:gap-4 md:gap-5">
                     <div className="flex flex-col items-center justify-center mt-5">
                         <div className="w-5 h-5 rounded-full bg-[#02a3eb]" />
                         <div className="w-1 sm:h-80 h-40 blue-gradient" />
