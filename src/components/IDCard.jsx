@@ -185,9 +185,9 @@ const IDCard = ({ animationDuration = 4 }) => {
                 rotation={[0, 0, Math.PI / 2]}
                 anchorX="center"
                 anchorY="middle"
-                letterSpacing={0.8}
+                letterSpacing={0.6}
               >
-                WEBDEV
+                AI/MLDEV
               </Text>
               {/* QR code on the back side */}
               <mesh position={[0, 0.5, -0.011]} rotation={[0, Math.PI, 0]}>

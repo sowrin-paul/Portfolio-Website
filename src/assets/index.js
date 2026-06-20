@@ -17,7 +17,7 @@ import reactjs from "./tech/reactjs.png";
 import python from "./tech/python.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
 import pytorch from "./tech/pytorch.png";
 
 import reacticon from "./company/reacticon.png";

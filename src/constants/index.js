@@ -56,7 +56,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Machine Learning",
       icon: web,
     },
     {
@@ -68,7 +68,7 @@ import {
       icon: backend,
     },
     {
-      title: "Frontend Developer",
+      title: "AI Chatbot Development",
       icon: creator,
     },
   ];
@@ -77,6 +77,10 @@ import {
     {
       name: "Python",
       icon: python,
+    },
+    {
+      name: "PyTorch",
+      icon: pytorch,
     },
     {
       name: "HTML 5",
@@ -118,10 +122,6 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "PyTorch",
-      icon: pytorch,
-    },
   ];
   
   const experiences = [
@@ -153,7 +153,7 @@ import {
       title: "React Developer",
       icon: reacticon,
       iconBg: "#383E56",
-      date: "April 2024 - present",
+      date: "",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with teams including designers, and other team members to create high-quality products.",
